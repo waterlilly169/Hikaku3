@@ -1,10 +1,3 @@
-//
-//  Styles.swift
-//  Ellifit
-//
-//  Created by lilly hebert on 2/13/22.
-//
-
 import Foundation
 import SwiftUI
 

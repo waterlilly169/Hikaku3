@@ -1,10 +1,3 @@
-//
-//  ImageGridView.swift
-//  Ellifit
-//
-//  Created by lilly hebert on 2/4/22.
-//
-
 import Foundation
 import SwiftUI
 @available(iOS 14.0, *)

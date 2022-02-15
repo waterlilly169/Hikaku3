@@ -1,10 +1,3 @@
-//
-//  GoogleSignInButton.swift
-//  Ellifit
-//
-//  Created by Rudrank Riyam on 21/12/21.
-//
-
 import SwiftUI
 import GoogleSignIn
 

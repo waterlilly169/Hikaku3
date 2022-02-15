@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A88A0DA263E62DC00EEAF6E /* EllifitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A88A0D9263E62DC00EEAF6E /* EllifitApp.swift */; };
+		0A88A0DA263E62DC00EEAF6E /* HikakuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A88A0D9263E62DC00EEAF6E /* HikakuApp.swift */; };
 		0A88A0DC263E62DC00EEAF6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A88A0DB263E62DC00EEAF6E /* ContentView.swift */; };
 		0A88A0DE263E62DD00EEAF6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A88A0DD263E62DD00EEAF6E /* Assets.xcassets */; };
 		0A88A0E1263E62DD00EEAF6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A88A0E0263E62DD00EEAF6E /* Preview Assets.xcassets */; };
@@ -32,8 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A88A0D6263E62DC00EEAF6E /* Ellifit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ellifit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A88A0D9263E62DC00EEAF6E /* EllifitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllifitApp.swift; sourceTree = "<group>"; };
+		0A88A0D6263E62DC00EEAF6E /* Hikaku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hikaku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A88A0D9263E62DC00EEAF6E /* HikakuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikakuApp.swift; sourceTree = "<group>"; };
 		0A88A0DB263E62DC00EEAF6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0A88A0DD263E62DD00EEAF6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A88A0E0263E62DD00EEAF6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 		0A88A0CD263E62DC00EEAF6E = {
 			isa = PBXGroup;
 			children = (
-				0A88A0D8263E62DC00EEAF6E /* Ellifit */,
+				0A88A0D8263E62DC00EEAF6E /* Hikaku */,
 				0A88A0D7263E62DC00EEAF6E /* Products */,
 				4FAC4AB227ACE4C4006BA215 /* Frameworks */,
 			);
@@ -80,22 +80,22 @@
 		0A88A0D7263E62DC00EEAF6E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0A88A0D6263E62DC00EEAF6E /* Ellifit.app */,
+				0A88A0D6263E62DC00EEAF6E /* Hikaku.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0A88A0D8263E62DC00EEAF6E /* Ellifit */ = {
+		0A88A0D8263E62DC00EEAF6E /* Hikaku */ = {
 			isa = PBXGroup;
 			children = (
-				0A88A0D9263E62DC00EEAF6E /* EllifitApp.swift */,
+				0A88A0D9263E62DC00EEAF6E /* HikakuApp.swift */,
 				4F48FFE027ADB9E500EDA67F /* Models */,
 				4FAC4AB727AD03C5006BA215 /* Views */,
 				4FAC4AA827ACDBD7006BA215 /* GoogleService-Info.plist */,
 				0A88A0DD263E62DD00EEAF6E /* Assets.xcassets */,
 				0A88A0DF263E62DD00EEAF6E /* Preview Content */,
 			);
-			path = Ellifit;
+			path = Hikaku;
 			sourceTree = "<group>";
 		};
 		0A88A0DF263E62DD00EEAF6E /* Preview Content */ = {
@@ -144,9 +144,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0A88A0D5263E62DC00EEAF6E /* Ellifit */ = {
+		0A88A0D5263E62DC00EEAF6E /* Hikaku */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A88A0E5263E62DD00EEAF6E /* Build configuration list for PBXNativeTarget "Ellifit" */;
+			buildConfigurationList = 0A88A0E5263E62DD00EEAF6E /* Build configuration list for PBXNativeTarget "Hikaku" */;
 			buildPhases = (
 				0A88A0D2263E62DC00EEAF6E /* Sources */,
 				0A88A0D3263E62DC00EEAF6E /* Frameworks */,
@@ -156,7 +156,7 @@
 			);
 			dependencies = (
 			);
-			name = Ellifit;
+			name = Hikaku;
 			packageProductDependencies = (
 				4F48FFD927AD9BB900EDA67F /* FirebaseAuth */,
 				4F48FFDB27AD9BB900EDA67F /* FirebaseFirestore */,
@@ -164,7 +164,7 @@
 				4FCED40127B481C300E3FF9D /* FirebaseStorage */,
 			);
 			productName = Ellifit;
-			productReference = 0A88A0D6263E62DC00EEAF6E /* Ellifit.app */;
+			productReference = 0A88A0D6263E62DC00EEAF6E /* Hikaku.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -181,7 +181,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0A88A0D1263E62DC00EEAF6E /* Build configuration list for PBXProject "Ellifit" */;
+			buildConfigurationList = 0A88A0D1263E62DC00EEAF6E /* Build configuration list for PBXProject "Hikaku" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -198,7 +198,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0A88A0D5263E62DC00EEAF6E /* Ellifit */,
+				0A88A0D5263E62DC00EEAF6E /* Hikaku */,
 			);
 		};
 /* End PBXProject section */
@@ -234,7 +234,7 @@
 				0AA34D4926428F1100C12462 /* LoginView.swift in Sources */,
 				4FAC4AB927AD0AF7006BA215 /* Todo.swift in Sources */,
 				0AFA497E277205DD00678C18 /* GoogleSignInButton.swift in Sources */,
-				0A88A0DA263E62DC00EEAF6E /* EllifitApp.swift in Sources */,
+				0A88A0DA263E62DC00EEAF6E /* HikakuApp.swift in Sources */,
 				4FAC4AAF27ACE3E7006BA215 /* StyleBoardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,7 +364,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Ellifit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Hikaku/Preview Content\"";
 				DEVELOPMENT_TEAM = K8QV8Q3232;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Ellifit/Info.plist;
@@ -386,7 +386,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Ellifit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Hikaku/Preview Content\"";
 				DEVELOPMENT_TEAM = K8QV8Q3232;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Ellifit/Info.plist;
@@ -405,7 +405,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A88A0D1263E62DC00EEAF6E /* Build configuration list for PBXProject "Ellifit" */ = {
+		0A88A0D1263E62DC00EEAF6E /* Build configuration list for PBXProject "Hikaku" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A88A0E3263E62DD00EEAF6E /* Debug */,
@@ -414,7 +414,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A88A0E5263E62DD00EEAF6E /* Build configuration list for PBXNativeTarget "Ellifit" */ = {
+		0A88A0E5263E62DD00EEAF6E /* Build configuration list for PBXNativeTarget "Hikaku" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A88A0E6263E62DD00EEAF6E /* Debug */,

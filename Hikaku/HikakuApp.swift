@@ -1,17 +1,10 @@
-//
-//  EllifitApp.swift
-//  Ellifit
-//
-//  Created by Rudrank Riyam on 02/05/21.
-//
-
 import SwiftUI
 import Firebase
 import GoogleSignIn
 import FirebaseStorage
 
 @main
-struct EllifitApp: App {
+struct HikakuApp: App {
     @StateObject var viewModel = AuthenticationViewModel()
     
     init() {
@@ -26,7 +19,7 @@ struct EllifitApp: App {
     }
 }
 
-extension EllifitApp {
+extension HikakuApp {
     private func setupAuthentication() {
         FirebaseApp.configure()
     }

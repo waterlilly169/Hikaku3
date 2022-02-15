@@ -1,4 +1,3 @@
-
 import Foundation
 
 struct Todo: Codable, Equatable, Identifiable, Hashable {

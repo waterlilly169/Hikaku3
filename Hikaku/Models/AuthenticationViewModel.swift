@@ -1,10 +1,3 @@
-//
-//  AuthenticationViewModel.swift
-//  Ellifit
-//
-//  Created by Rudrank Riyam on 05/05/21.
-//
-
 import Foundation
 import Firebase
 import GoogleSignIn

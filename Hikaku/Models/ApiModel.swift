@@ -20,8 +20,7 @@ class ApiModel: ObservableObject {
         // Set the data to update
         db.collection("users").document(did).updateData(["styleboardimages.\(loc)": newImage.absoluteString]) {
             error in
-//            \(todoToUpdate.styleboardname)"
-            // Check for errors
+
             if error == nil {
                 // Get the new data
                 self.getData()

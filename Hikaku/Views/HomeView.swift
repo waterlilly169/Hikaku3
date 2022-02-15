@@ -1,10 +1,3 @@
-//
-//  HomeView.swift
-//  Ellifit
-//
-////  Created by Rudrank Riyam on 05/05/21.
-////
-//
 import Firebase
 import SwiftUI
 import GoogleSignIn
