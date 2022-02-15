@@ -1,0 +1,35 @@
+workflows:
+    ios-workflow:
+      name: iOS Workflow
+      environment:
+        groups:
+          - firebase
+        vars:
+          XCODE_PROJECT: "Ellifit.xcodeproj"
+          XCODE_SCHEME: "Ellifit"
+          BUNDLE_ID: "com.rudrankriyam.Ellifit"
+        xcode: latest
+        cocoapods: default
+      triggering:
+        events:
+          - push
+          - tag
+          - pull_request
+        branch_patterns:
+          - pattern: 'develop'
+            include: true
+            source: true
+      scripts:
+        - name: Decode Google Service file
+          script: |
+            echo $IOS_SECRET_FIREBASE | base64 --decode > $FCI_BUILD_DIR/Ellifit/GoogleService-Info.plist
+        - name: Increment build number
+          script: |
+            #!/bin/sh
+            set -e
+            set -x
+            cd $FCI_BUILD_DIR
+            agvtool new-version -all $(($BUILD_NUMBER + 1))
+        - name: Build project
+          script: |
+           xcodebuild build -project "$XCODE_PROJECT" -scheme "$XCODE_SCHEME" CODE_SIGN_INDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
