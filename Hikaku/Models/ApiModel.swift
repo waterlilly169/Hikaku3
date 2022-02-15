@@ -78,24 +78,6 @@ class ApiModel: ObservableObject {
         }
     }
     
-//    func getStyleImagesData(docid: String) {
-//        
-//        let db = Firestore.firestore()
-//        // Get a reference to the database
-//        let docRef = db.collection("users").document(docid)
-//        
-//        // Read the documents at a specific path
-//        docRef.getDocument { (document, error) in
-//        if error == nil {
-//            // No errors
-//            
-//            // Call get data to retrieve latest data
-//            
-//        }
-//        else {
-//            // Handle the error
-//        }
-//    }
     func getData() {
         
         // Get a reference to the database
@@ -153,28 +135,4 @@ class ApiModel: ObservableObject {
                 }
             }
     }
-
-//    func getImageData(id: String) {
-//        let db = Firestore.firestore()
-//
-//        let docRef = db.collection("users").document(id)
-//
-//        docRef.getDocument { (document, error) in
-//            if let document = document, document.exists {
-//                let dataDescription = document.data().map(String.init(describing:)) ?? "nil"
-//                print("Document data: \(dataDescription)")
-//
-//                self.griddata = dataDescription.map { (dataDescription) -> GridData in
-//                                let data = dataDescription
-//                                let name = data["id"] as? String ?? ""
-//                                let surname = data["surname"] as? String ?? ""
-//                                return User(name: name, surname: surname)
-//                            }
-//            } else {
-//                print("Document does not exist")
-//            }
-//        }
-//    }
-    
-//}
 

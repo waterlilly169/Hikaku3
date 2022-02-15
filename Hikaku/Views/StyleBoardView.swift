@@ -6,7 +6,7 @@ struct StyleBoardView: View {
     
     
     @State private var showingSheet = false
-//    @StateObject var model = ApiModel()
+
     @ObservedObject var model = ApiModel()
     @State var styleboardname = ""
 
@@ -16,7 +16,6 @@ struct StyleBoardView: View {
         NavigationView {
             VStack {
                 Text("               Select Style Board               ")
-//                    .padding(.top, -65)
                     .modifier(customViewModifier(roundedCornes: 6, startColor: .pink, endColor: .purple, textColor: .white))
                     .frame(width: 700, height: 30)
                   

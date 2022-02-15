@@ -15,7 +15,6 @@ struct GridView: View {
     var body: some View {
         NavigationView {
             var posts = item.styleboardimages
-            var nums = [1, 2, 3, 4, 5, 6, 7, 8, 9]
            
             VStack(alignment: .leading){
                 Text(item.styleboardname)
@@ -70,7 +69,7 @@ struct GridView: View {
                     Button(action: {
                             self.persistImageToStorage()
                             model.getData()
-    //                        model.getImageData(id: item.id)
+ 
                         }, label: {
                             Image(systemName: "pencil")
                         })
@@ -84,7 +83,7 @@ struct GridView: View {
                     ImagePicker(image: $image)
                         .ignoresSafeArea()
                 }
-//        let posts = Array(item.styleboardimages)
+
     }
   private func persistImageToStorage() {
     guard let uid = FirebaseManager.shared.auth.currentUser?.uid else { return }
@@ -119,9 +118,5 @@ struct GridView: View {
 struct GridView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-//        GridView(item: )
-//        NavigationView {
-//            GridView(item: model.list[1])
-//                }
     }
 }
